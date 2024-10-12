@@ -1,0 +1,166 @@
+.places {
+  max-width: 76.87%;
+  margin: 0 auto;
+}
+
+.places__city {
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto 0.058fr;
+  grid-template-areas:
+    "title artist"
+    "image text"
+    "button text";
+  gap: 48px 40px;
+}
+
+.places__city-title {
+  grid-area: title;
+  margin: 0;
+  font-size: 72px;
+  line-height: 1.05;
+  align-self: end;
+}
+
+.places__city-artist {
+  grid-area: artist;
+  margin: 0;
+  align-self: end;
+  font-size: 12px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #aaa;
+  letter-spacing: 2px;
+}
+
+.places__city-artist-name {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.places__city-artist-name:first-of-type {
+  display: block;
+  margin-top: 8px;
+}
+
+.places__city-image {
+  grid-area: image;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.places__city-text {
+  margin: 0;
+  grid-area: text;
+  font-size: 18px;
+  /* grid-row-end: auto; */
+}
+
+.places__city-text-paragraph {
+  margin-top: 25px;
+  display: block;
+}
+
+/* Transformar button em uma tag a */
+.places__city-button {
+  grid-area: button;
+  border: none;
+  padding: 2.7% 4.2%;
+  border-radius: 4px;
+  max-width: 77.39%;
+  background-image: linear-gradient(to right, #0278fe 0%, #003a7b 100%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* terminar de estilizar o hover */
+.places__city-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 93.75%;
+  }
+
+  .places__city {
+    margin: 0 auto 72px;
+    column-gap: 28px;
+    grid-template-rows: auto auto 0.058fr;
+  }
+
+  .places__city-title {
+    font-size: 42px;
+    line-height: 1.09;
+  }
+
+  .places__city-image {
+    max-width: 100%;
+  }
+
+  .places__city-text {
+    font-size: 16px;
+    max-height: 100%;
+  }
+
+  .places__city-button {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places {
+    max-width: 100%;
+  }
+  .places__city {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "text"
+      "button";
+    gap: 30px;
+    margin: 0 auto 50px;
+  }
+
+  .places__city-title {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 32px;
+  }
+
+  .places__city-artist {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .places__city-image {
+    margin: 0 auto;
+  }
+
+  .places__city-text {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .places__city-button {
+    margin: 0 auto;
+    font-size: 14px;
+    max-height: 100%;
+    width: 90%;
+    height: 48px;
+  }
+}
