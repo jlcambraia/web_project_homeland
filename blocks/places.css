@@ -51,7 +51,6 @@
 .places__city-image {
   grid-area: image;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
-  display: block;
   max-width: 100%;
   object-fit: cover;
 }
@@ -60,7 +59,6 @@
   margin: 0;
   grid-area: text;
   font-size: 18px;
-  /* grid-row-end: auto; */
 }
 
 .places__city-text-paragraph {
@@ -71,7 +69,6 @@
 /* Transformar button em uma tag a */
 .places__city-button {
   grid-area: button;
-  border: none;
   padding: 2.7% 4.2%;
   border-radius: 4px;
   max-width: 77.39%;
@@ -81,6 +78,7 @@
   font-weight: 600;
   line-height: 1.2;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
 }
 
 /* terminar de estilizar o hover */
@@ -96,7 +94,6 @@
   .places__city {
     margin: 0 auto 72px;
     column-gap: 28px;
-    grid-template-rows: auto auto 0.058fr;
   }
 
   .places__city-title {
