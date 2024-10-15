@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    max-width: 93.75%;
+    width: 93.75%;
   }
 
   .intro__title {
@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 544px) {
   .intro {
-    max-width: 90%;
+    width: 90%;
   }
 
   .intro__title {

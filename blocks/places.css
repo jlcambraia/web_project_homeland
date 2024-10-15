@@ -1,13 +1,14 @@
 .places {
-  max-width: 76.87%;
+  width: 76.87%;
   margin: 0 auto;
 }
 
 .places__city {
+  width: 100%;
   margin: 0 auto 80px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto 0.058fr;
+  grid-template-rows: auto auto 1fr;
   grid-template-areas:
     "title artist"
     "image text"
@@ -51,13 +52,14 @@
 .places__city-image {
   grid-area: image;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
+  box-sizing: content-box;
 }
 
 .places__city-text {
-  margin: 0;
   grid-area: text;
+  margin: 0;
   font-size: 18px;
 }
 
@@ -66,19 +68,24 @@
   display: block;
 }
 
-/* Transformar button em uma tag a */
 .places__city-button {
   grid-area: button;
-  padding: 2.7% 4.2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 13px 20px;
   border-radius: 4px;
-  max-width: 77.39%;
   background-image: linear-gradient(to right, #0278fe 0%, #003a7b 100%);
   color: #fff;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.2;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-  text-align: center;
+  width: 77.39%;
+  max-height: 28px;
+  min-height: 28px;
 }
 
 /* terminar de estilizar o hover */
@@ -88,7 +95,7 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 93.75%;
+    width: 93.75%;
   }
 
   .places__city {
@@ -102,25 +109,24 @@
   }
 
   .places__city-image {
-    max-width: 100%;
+    width: 100%;
   }
 
   .places__city-text {
     font-size: 16px;
-    max-height: 100%;
   }
 
   .places__city-button {
-    max-width: 100%;
+    width: calc(100% - 40px);
   }
 }
 
 @media screen and (max-width: 544px) {
   .places {
-    max-width: 100%;
+    width: 100%;
   }
   .places__city {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: repeat(5, auto);
     grid-template-areas:
       "title"
@@ -133,13 +139,13 @@
   }
 
   .places__city-title {
-    max-width: 90%;
+    width: 90%;
     margin: 0 auto;
     font-size: 32px;
   }
 
   .places__city-artist {
-    max-width: 90%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -148,16 +154,17 @@
   }
 
   .places__city-text {
-    max-width: 90%;
+    width: 90%;
     margin: 0 auto;
     font-size: 16px;
   }
 
   .places__city-button {
+    width: 90%;
     margin: 0 auto;
     font-size: 14px;
-    max-height: 100%;
-    width: 90%;
-    height: 48px;
+    padding: 15px 0;
+    max-height: 18px;
+    min-height: 18px;
   }
 }

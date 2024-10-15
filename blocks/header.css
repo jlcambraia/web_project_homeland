@@ -27,7 +27,7 @@
 }
 
 .header__image {
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto 92px;
 }
 
@@ -38,14 +38,14 @@
   }
 
   .header__title {
-    max-width: 69.01%;
+    width: 69.01%;
     margin: 0 auto 25px;
     font-size: 75px;
     line-height: 1.05;
   }
 
   .header__subtitle {
-    max-width: 93.75%;
+    width: 93.75%;
     margin: 0 auto 30px;
   }
 
@@ -61,14 +61,14 @@
   }
 
   .header__title {
-    max-width: 71.25%;
+    width: 71.25%;
     margin: 0 auto 16px;
     font-size: 40px;
     line-height: 1.1;
   }
 
   .header__subtitle {
-    max-width: 90%;
+    width: 90%;
     margin: 0 auto 40px;
     font-size: 16px;
     line-height: 1.25;
