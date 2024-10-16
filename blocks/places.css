@@ -16,6 +16,10 @@
   gap: 48px 40px;
 }
 
+.places__city:last-of-type {
+  margin: 0 auto 90px;
+}
+
 .places__city-title {
   grid-area: title;
   margin: 0;
@@ -145,6 +149,10 @@
       "button";
     gap: 30px;
     margin: 0 auto 50px;
+  }
+
+  .places__city:last-of-type {
+    margin: 0 auto 65px;
   }
 
   .places__city-title {

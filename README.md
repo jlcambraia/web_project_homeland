@@ -8,6 +8,10 @@ De Pátria para Pátria
 
 O website "De Pátria para Pátria" é uma plataforma que apresenta histórias de pessoas de diferentes partes do mundo, dedicando-se a criar uma comunidade acolhedora para futuros profissionais de tecnologia. O projeto destaca a diversidade cultural e a jornada épica de cada indivíduo, desde lugares como Kentucky, Burundi, País de Gales e Ucrânia. Ele encoraja os visitantes a compartilhar suas próprias histórias e criar obras visuais que representem suas cidades natais, tornando-se uma galeria colaborativa de arte e cultura global. A página central inclui um texto inspirador e uma imagem de um vilarejo representando a conexão com o local de origem.
 
+## Link para o GitHub Pages:
+
+O site está disponível no GitHub Pages: [Clique aqui para acessar](https://jlcambraia.github.io/web_project_homeland/)
+
 ## Tecnologias e Técnicas utilizadas:
 
 1. HTML5: O documento é escrito em HTML5, que é a versão mais recente da linguagem de marcação utilizada para estruturar o conteúdo da web.
@@ -26,10 +30,6 @@ O website "De Pátria para Pátria" é uma plataforma que apresenta histórias d
 
 8. Organização Modular: A organização modular do código, separando o CSS externo do HTML, segue o princípio de separação de preocupações, uma boa prática em desenvolvimento web que facilita a manutenção e reutilização do código.
 
-## Link para o GitHub Pages:
-
-O site está disponível no GitHub Pages: [Clique aqui para acessar](https://jlcambraia.github.io/web_project_homeland/)
-
 ## Planos de Melhoria:
 
 1. Melhoria na identidade visual: Incorporar elementos gráficos mais ricos e atraentes que representem os diferentes países e culturas, como mapas, bandeiras ou símbolos característicos.
@@ -41,3 +41,7 @@ O site está disponível no GitHub Pages: [Clique aqui para acessar](https://jlc
 4. Galeria expandida: Incluir a possibilidade de explorar as histórias por meio de uma galeria visual, onde cada contribuição pode ser exibida com uma imagem, história breve e localização no mapa.
 
 5. Facilitar o compartilhamento das histórias nas redes sociais diretamente do site, utilizando botões visíveis e links integrados.
+
+## Direitos Autorais:
+
+A imagem de Belo Horizonte foi retirada de: [Imagem de wirestock no Freepik] (https://br.freepik.com/fotos-gratis/bela-calcada-entre-palmeiras-altas-sob-um-ceu-ensolarado-no-brasil_13382065.htm#query=belo%20horizonte&position=6&from_view=keyword&track=ais_hybrid&uuid=71804f39-588c-406c-b440-e68282fb004d)
