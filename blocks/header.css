@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1024px) {
   .header__logo {
-    max-width: 254px;
+    width: 37.46%;
     margin: 30px auto 90px;
   }
 
@@ -57,7 +57,7 @@
 @media screen and (max-width: 544px) {
   .header__logo {
     margin: 20px auto 50px;
-    max-width: 188px;
+    width: 58.75%;
   }
 
   .header__title {
