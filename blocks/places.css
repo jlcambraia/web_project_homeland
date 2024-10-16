@@ -137,11 +137,6 @@
   .places__city-button {
     width: calc(100% - 40px);
   }
-
-  .places__city-button:hover {
-    background: none;
-    cursor: none;
-  }
 }
 
 @media screen and (max-width: 544px) {
@@ -199,10 +194,5 @@
     padding: 15px 0;
     max-height: 18px;
     min-height: 18px;
-  }
-
-  .places__city-button:hover {
-    background: none;
-    cursor: none;
   }
 }
