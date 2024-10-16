@@ -126,7 +126,7 @@
   }
 
   .places__city-image:hover {
-    opacity: none;
+    opacity: 100%;
     cursor: none;
   }
 
@@ -182,7 +182,7 @@
   }
 
   .places__city-image:hover {
-    opacity: none;
+    opacity: 100%;
     cursor: none;
   }
 
