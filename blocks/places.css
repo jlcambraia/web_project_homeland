@@ -98,7 +98,11 @@
 }
 
 .places__city-button:hover {
-  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
   cursor: pointer;
 }
 
@@ -121,12 +125,22 @@
     width: 100%;
   }
 
+  .places__city-image:hover {
+    opacity: none;
+    cursor: none;
+  }
+
   .places__city-text {
     font-size: 16px;
   }
 
   .places__city-button {
     width: calc(100% - 40px);
+  }
+
+  .places__city-button:hover {
+    background: none;
+    cursor: none;
   }
 }
 
@@ -167,6 +181,11 @@
     box-shadow: none;
   }
 
+  .places__city-image:hover {
+    opacity: none;
+    cursor: none;
+  }
+
   .places__city-text {
     width: 90%;
     margin: 0 auto;
@@ -180,5 +199,10 @@
     padding: 15px 0;
     max-height: 18px;
     min-height: 18px;
+  }
+
+  .places__city-button:hover {
+    background: none;
+    cursor: none;
   }
 }
