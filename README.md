@@ -44,4 +44,4 @@ O site está disponível no GitHub Pages: [Clique aqui para acessar](https://jlc
 
 ## Direitos Autorais:
 
-A imagem de Belo Horizonte foi retirada de: [Imagem de wirestock no Freepik] (https://br.freepik.com/fotos-gratis/bela-calcada-entre-palmeiras-altas-sob-um-ceu-ensolarado-no-brasil_13382065.htm#query=belo%20horizonte&position=6&from_view=keyword&track=ais_hybrid&uuid=71804f39-588c-406c-b440-e68282fb004d)
+A imagem de Belo Horizonte foi retirada de: [Imagem de wirestock no Freepik](https://br.freepik.com/fotos-gratis/bela-calcada-entre-palmeiras-altas-sob-um-ceu-ensolarado-no-brasil_13382065.htm#query=belo%20horizonte&position=6&from_view=keyword&track=ais_hybrid&uuid=71804f39-588c-406c-b440-e68282fb004d)
