@@ -4,13 +4,13 @@
 
 De Pátria para Pátria
 
-## Descrição do Projeto:
-
-O website "De Pátria para Pátria" é uma plataforma que apresenta histórias de pessoas de diferentes partes do mundo, dedicando-se a criar uma comunidade acolhedora para futuros profissionais de tecnologia. O projeto destaca a diversidade cultural e a jornada épica de cada indivíduo, desde lugares como Kentucky, Burundi, País de Gales e Ucrânia. Ele encoraja os visitantes a compartilhar suas próprias histórias e criar obras visuais que representem suas cidades natais, tornando-se uma galeria colaborativa de arte e cultura global. A página central inclui um texto inspirador e uma imagem de um vilarejo representando a conexão com o local de origem.
-
 ## Link para o GitHub Pages:
 
 O site está disponível no GitHub Pages: [Clique aqui para acessar](https://jlcambraia.github.io/web_project_homeland/)
+
+## Descrição do Projeto:
+
+O website "De Pátria para Pátria" é uma plataforma que apresenta histórias de pessoas de diferentes partes do mundo, dedicando-se a criar uma comunidade acolhedora para futuros profissionais de tecnologia. O projeto destaca a diversidade cultural e a jornada épica de cada indivíduo, desde lugares como Kentucky, Burundi, País de Gales e Ucrânia. Ele encoraja os visitantes a compartilhar suas próprias histórias e criar obras visuais que representem suas cidades natais, tornando-se uma galeria colaborativa de arte e cultura global. A página central inclui um texto inspirador e uma imagem de um vilarejo representando a conexão com o local de origem.
 
 ## Tecnologias e Técnicas utilizadas:
 
