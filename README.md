@@ -1,47 +1,96 @@
-# Tripleten web_project_homeland
+# From Homeland to Homeland — Responsive Website
 
-## Nome do Projeto:
+A responsive cultural storytelling website built with **HTML5 and CSS3**, celebrating the places, people, and stories that connect us to our origins.
 
-De Pátria para Pátria
+**[Live Demo](https://jlcambraia.github.io/web_project_homeland/)**
 
-## Link para o GitHub Pages:
+## Overview
 
-O site está disponível no GitHub Pages: [Clique aqui para acessar](https://jlcambraia.github.io/web_project_homeland/)
+From Homeland to Homeland (*De Pátria para Pátria*) explores cultural diversity through stories and images representing different parts of the world.
 
-## Descrição do Projeto:
+The project features locations including Kentucky, Burundi, Wales, and Ukraine, highlighting personal connections to hometowns and cultural identity.
 
-O website "De Pátria para Pátria" é uma plataforma que apresenta histórias de pessoas de diferentes partes do mundo, dedicando-se a criar uma comunidade acolhedora para futuros profissionais de tecnologia. O projeto destaca a diversidade cultural e a jornada épica de cada indivíduo, desde lugares como Kentucky, Burundi, País de Gales e Ucrânia. Ele encoraja os visitantes a compartilhar suas próprias histórias e criar obras visuais que representem suas cidades natais, tornando-se uma galeria colaborativa de arte e cultura global. A página central inclui um texto inspirador e uma imagem de um vilarejo representando a conexão com o local de origem.
+Developed as part of the **TripleTen Web Development program**, the project focuses on semantic HTML, responsive design, and visual composition.
 
-## Tecnologias e Técnicas utilizadas:
+## Features
 
-1. HTML5: O documento é escrito em HTML5, que é a versão mais recente da linguagem de marcação utilizada para estruturar o conteúdo da web.
+- Responsive page layout
+- Cultural storytelling sections
+- Image-based content presentation and photo gallery
+- Semantic HTML5 structure
+- CSS styling and layout
+- Descriptive image alternative text
+- Page metadata and favicon
+- Desktop and mobile presentation
 
-2. Metadados: O uso de Metadados garante suporte a caracteres especiais, como acentos e símbolos; garante que o site seja responsivo, ajustando-se automaticamente para diferentes tamanhos de tela, como celulares e tablets; ajudam na otimização para motores de busca (SEO), descrevendo o conteúdo da página e as palavras-chave associadas; e informa o nome do autor da página, no caso, João Luiz Cambraia.
+## Tech Stack
 
-3. CSS Externo: Conecta o documento HTML a uma folha de estilo CSS externa, que define a aparência e o layout da página. Essa abordagem modulariza o código, separando o conteúdo (HTML) da apresentação (CSS).
+- HTML5
+- CSS3
+- Responsive Web Design
+- Semantic Markup
+- Git
+- GitHub Pages
 
-4. Imagens e Favicon: O código utiliza duas imagens para fornecer um logotipo e uma imagem de cabeçalho. As tags de imagem incluem atributos alt para acessibilidade e SEO, descrevendo o conteúdo das imagens para leitores de tela e mecanismos de busca. O favicon está configurado e adiciona um pequeno ícone à aba do navegador.
+## Design and Development
 
-5. Estrutura Semântica: O código usa tags semânticas do HTML5 para estruturar o conteúdo de forma lógica e acessível.
+### Responsive Layouts
 
-6. Boas Práticas de SEO: As metatags como description e keywords, além das tags de cabeçalho, ajudam na otimização da página para motores de busca, melhorando a relevância e a classificação da página nos resultados de pesquisa. O título da página, De Pátria para Pátria, é outro fator importante para SEO, informando o tema principal do site.
+The website adapts to different viewport sizes, including desktop and mobile screens.
 
-7. Uso de Citações: O trecho com a frase de Joseph Beuys utiliza tag para estilizar a citação e destacar o nome do autor. Embora seja uma técnica simples, é útil para controle de estilo ao aplicar CSS.
+### Semantic HTML
 
-8. Organização Modular: A organização modular do código, separando o CSS externo do HTML, segue o princípio de separação de preocupações, uma boa prática em desenvolvimento web que facilita a manutenção e reutilização do código.
+Semantic elements organize content and improve document structure.
 
-## Planos de Melhoria:
+### Visual Storytelling
 
-1. Melhoria na identidade visual: Incorporar elementos gráficos mais ricos e atraentes que representem os diferentes países e culturas, como mapas, bandeiras ou símbolos característicos.
+Images, typography, and layout work together to present stories about different cultures and locations.
 
-2. Aprimorar a navegação: Implementar uma barra de navegação simplificada com ícones e categorias claras (ex.: "Histórias", "Galeria de Arte", "Participe").
+### Accessibility
 
-3. Formulário de contribuição de histórias: Adicionar uma área onde os visitantes possam facilmente compartilhar suas próprias histórias de forma mais estruturada, com opções para anexar imagens, vídeos ou áudios.
+Descriptive alternative text helps communicate image content to assistive technologies.
 
-4. Galeria expandida: Incluir a possibilidade de explorar as histórias por meio de uma galeria visual, onde cada contribuição pode ser exibida com uma imagem, história breve e localização no mapa.
+## Getting Started
 
-5. Facilitar o compartilhamento das histórias nas redes sociais diretamente do site, utilizando botões visíveis e links integrados.
+Requires Git and a modern web browser.
 
-## Direitos Autorais:
+```bash
+git clone https://github.com/jlcambraia/web_project_homeland.git
+cd web_project_homeland
+```
 
-A imagem de Belo Horizonte foi retirada de: [Imagem de wirestock no Freepik](https://br.freepik.com/fotos-gratis/bela-calcada-entre-palmeiras-altas-sob-um-ceu-ensolarado-no-brasil_13382065.htm#query=belo%20horizonte&position=6&from_view=keyword&track=ais_hybrid&uuid=71804f39-588c-406c-b440-e68282fb004d)
+Open `index.html` in your browser or use a local static development server.
+
+## Project Scope
+
+This is a static frontend website focused on HTML and CSS fundamentals. It does not require a backend server, database, or JavaScript framework.
+
+## Learning Outcomes
+
+- Semantic HTML structure
+- Responsive CSS layouts
+- Visual hierarchy and typography
+- Image integration
+- Accessibility fundamentals
+- Static website deployment
+
+## Potential Improvements
+
+- Enhanced accessibility testing
+- Additional cultural stories
+- Interactive image galleries
+- Improved navigation
+- Content contribution features
+- Social sharing functionality
+
+## Image Credits
+
+The Belo Horizonte image used in the project is credited to **wirestock / Freepik**.
+
+[Original Image Source](https://br.freepik.com/fotos-gratis/bela-calcada-entre-palmeiras-altas-sob-um-ceu-ensolarado-no-brasil_13382065.htm)
+
+## Author
+
+**João Luiz Cambraia**
+
+[GitHub](https://github.com/jlcambraia) · [LinkedIn](https://www.linkedin.com/in/joaoluizcambraia/)
